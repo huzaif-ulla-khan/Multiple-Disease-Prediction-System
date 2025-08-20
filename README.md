@@ -5,7 +5,7 @@
 <p align="center">
   <b>AI-powered health assistant to predict multiple diseases instantly</b>  
   <br>
-  <a href="https://your-live-demo-link.com" target="_blank"><strong>🚀 Live Demo</strong></a> • 
+  <a href="https://multiple-disease-prediction-system-j7ep6et5cetdfhtpbljtpv.streamlit.app/" target="_blank"><strong>🚀 Live Demo</strong></a> • 
   <a href="#installation">📦 Installation</a> •
   <a href="#usage">💻 Usage</a> •
   <a href="#screenshots">🖼 Screenshots</a>
@@ -39,19 +39,20 @@ Built with **Streamlit** and **Machine Learning models**, this system provides q
 ## 🛠 Tech Stack
 
 - **Frontend:** Streamlit  
-- **Backend:** Python (Scikit-learn, Pandas, NumPy)  
+- **Backend:** Python (Scikit-learn, Pandas, NumPy, XGBoost)  
 - **ML Models:** Logistic Regression, Random Forest, SVM  
-- **Deployment:** Streamlit Cloud / Hugging Face Spaces  
+- **Deployment:** Streamlit Cloud  
 
 ---
 
 ## 🚀 Live Demo
 
-[[🔗 Click here to try the app](https://your-live-demo-link.com) ](https://multiple-disease-prediction-system-j7ep6et5cetdfhtpbljtpv.streamlit.app/) 
+🔗 [Click here to try the app](https://multiple-disease-prediction-system-j7ep6et5cetdfhtpbljtpv.streamlit.app/)
 
 ---
 
 ## 📂 Installation
+
 
 # Clone the repository
 git clone https://github.com/HuzaifKhan44/Multiple-Disease-Prediction-System.git
@@ -64,12 +65,7 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-💻 Usage
-Choose the disease from the sidebar.
 
-Fill in the required health details.
-
-Click Predict to get the result.
 
 🖼 Screenshots
 ### Home Page
@@ -89,16 +85,17 @@ Click Predict to get the result.
 📁 Project Structure
 Multiple-Disease-Prediction-System/
 ├── app.py                 # Main Streamlit application
-├── models/               # Trained ML models
-│   ├── diabetes_model.pkl
-│   ├── heart_model.pkl
-│   ├── parkinsons_model.pkl
+├── models/                # Trained ML models
+│   ├── diabetes_model.sav
+│   ├── heart_disease_model.sav
+│   ├── parkinsons_model.sav
 │   └── breast_cancer_model.pkl
-├── data/                 # Dataset files
-├── screenshots/          # Application screenshots (Home Page & Prediction)
-├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
-└── LICENSE               # MIT License
+├── data/                  # Dataset files
+├── screenshots/           # Application screenshots
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── LICENSE                # MIT License
+
 🔧 Model Information
 Disease	Algorithm	Accuracy	Features
 Diabetes	Logistic Regression	95.2%	8 features
