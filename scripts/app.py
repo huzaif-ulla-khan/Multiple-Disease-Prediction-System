@@ -8,17 +8,23 @@ st.set_page_config(page_title="Health Assistant",
                    layout="wide",
                    page_icon="🧑‍⚕️")
 
-#loading models  
-with open(r"C:\Users\khuza\OneDrive\Desktop\Data science course\PROJECTS\MULTIPLE DISEASE PREDICTION\models\diabetes_model.sav", 'rb') as f:
+# Get the base directory (the folder where this script lives)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Go one level up (from scripts/ to project root) and into models/
+MODELS_DIR = os.path.join(BASE_DIR, "..", "models")
+
+# Load models with relative paths
+with open(os.path.join(MODELS_DIR, "diabetes_model.sav"), "rb") as f:
     diabetes_model = pickle.load(f)
 
-with open(r"C:\Users\khuza\OneDrive\Desktop\Data science course\PROJECTS\MULTIPLE DISEASE PREDICTION\models\heart_disease_model.sav", 'rb') as f:
+with open(os.path.join(MODELS_DIR, "heart_disease_model.sav"), "rb") as f:
     heart_disease_model = pickle.load(f)
 
-with open(r"C:\Users\khuza\OneDrive\Desktop\Data science course\PROJECTS\MULTIPLE DISEASE PREDICTION\models\parkinsons_model.sav", 'rb') as f:
+with open(os.path.join(MODELS_DIR, "parkinsons_model.sav"), "rb") as f:
     parkinsons_model = pickle.load(f)
 
-with open(r"C:\Users\khuza\OneDrive\Desktop\Data science course\PROJECTS\MULTIPLE DISEASE PREDICTION\models\breast_cancer_model.pkl", 'rb') as f:
+with open(os.path.join(MODELS_DIR, "breast_cancer_model.pkl"), "rb") as f:
     breast_cancer_model = pickle.load(f)
 
 
