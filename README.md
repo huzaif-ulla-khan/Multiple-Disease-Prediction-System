@@ -47,7 +47,7 @@ Built with **Streamlit** and **Machine Learning models**, this system provides q
 
 ## 🚀 Live Demo
 
-[🔗 Click here to try the app](https://your-live-demo-link.com)  
+[[🔗 Click here to try the app](https://your-live-demo-link.com) ](https://multiple-disease-prediction-system-j7ep6et5cetdfhtpbljtpv.streamlit.app/) 
 
 ---
 
