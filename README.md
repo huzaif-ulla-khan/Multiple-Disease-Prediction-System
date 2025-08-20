@@ -53,7 +53,7 @@ Built with **Streamlit** and **Machine Learning models**, this system provides q
 
 ## 📂 Installation
 
-'''bash
+```bash
 # Clone the repository
 git clone https://github.com/HuzaifKhan44/Multiple-Disease-Prediction-System.git
 
@@ -65,7 +65,6 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-'''
 
 🖼 Screenshots
 ### Home Page
