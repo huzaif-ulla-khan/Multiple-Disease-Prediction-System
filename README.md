@@ -81,19 +81,19 @@ streamlit run app.py
 ✅ Real-time predictions
 ✅ Clean and intuitive design
 
-📁 Project Structure
+## 📁 Project Structure
+
 Multiple-Disease-Prediction-System/
-├── app.py                 # Main Streamlit application
-├── models/                # Trained ML models
-│   ├── diabetes_model.sav
-│   ├── heart_disease_model.sav
-│   ├── parkinsons_model.sav
-│   └── breast_cancer_model.pkl
-├── data/                  # Dataset files
-├── screenshots/           # Application screenshots
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-└── LICENSE                # MIT License
+├── app.py # Main Streamlit application
+├── models/ # Trained ML models
+│ ├── diabetes_model.sav
+│ ├── heart_disease_model.sav
+│ ├── parkinsons_model.sav
+│ └── breast_cancer_model.pkl
+├── data/ # Dataset files
+├── screenshots/ # Application screenshots
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
 
 🔧 Model Information
 Disease	Algorithm	Accuracy	Features
