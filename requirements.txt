@@ -18,3 +18,4 @@ markdown-it-py>=3.0.0
 pygments>=2.18.0
 mdurl>=0.1.2
 streamlit-option-menu>=0.3.6
+xgboost>=2.1.1
