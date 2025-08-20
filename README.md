@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-
+```
 🖼 Screenshots
 ### Home Page
 ![Home Page](https://github.com/huzaif-ulla-khan/Multiple-Disease-Prediction-System/blob/main/screenshots/Image2.png)
