@@ -53,7 +53,7 @@ Built with **Streamlit** and **Machine Learning models**, this system provides q
 
 ## 📂 Installation
 
-```bash
+```
 # Clone the repository
 git clone https://github.com/HuzaifKhan44/Multiple-Disease-Prediction-System.git
 
@@ -82,7 +82,7 @@ streamlit run app.py
 ✅ Clean and intuitive design
 
 ## 📁 Project Structure
-
+```
 Multiple-Disease-Prediction-System/
 ├── app.py # Main Streamlit application
 ├── models/ # Trained ML models
@@ -94,7 +94,7 @@ Multiple-Disease-Prediction-System/
 ├── screenshots/ # Application screenshots
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
-
+```
 🔧 Model Information
 Disease	Algorithm	Accuracy	Features
 Diabetes	Logistic Regression	95.2%	8 features
